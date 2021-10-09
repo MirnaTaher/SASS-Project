@@ -1,0 +1,46 @@
+// colors
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$gray: rgb(128, 128, 128);
+$lightGray: rgb(175, 174, 174);
+$gradient: linear-gradient(to right, #B82DFF, #7647FB);
+$bgGray:#F9FAFF;
+$bgfooter:#222222;
+// paddings
+$p-1rem: 1rem;
+$py-2rem: 2rem 0;
+$py-8rem: 8rem 0;
+$pb-2rem: 0 0 2rem 0;
+$pb-1rem: 0 0 1rem 0;
+$py1px2rem: 1rem 2rem;
+$ps-2rem: 0 0 0 5rem;
+$pt-8rem: 8rem 0 0 0;
+// margins
+$mx-auto: 0 auto;
+$m-auto: auto;
+$mb-1rem: 0 0 1rem;
+$mtb-1rem: 1rem 0;
+$mt-2rem: 2rem 0 0 0;
+// width
+$w-70pc:70%;
+$w-40pc: 40%;
+$w-47pc: 47%;
+
+// sizes
+$s-09rem: 0.9rem;
+$s-4-7rem: 4.7rem;
+$s-1-1rem: 1.1rem;
+$s-1-5rem: 1.5rem;
+$s-3rem: 3rem;
+$s-2-5rem:2.5rem;
+$s-03rem: 0.3rem;
+$s-5rem: 5.5rem;
+$s-1-7rem: 1.7rem;
+// line heights
+$lh-1-6: 1.6;
+
+// box shadow
+$box-shadow:0 0 10px rgba(128, 128, 128, 0.425);
+// positions
+$pRelative: relative;
+$pAbsolute: absolute;

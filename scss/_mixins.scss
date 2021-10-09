@@ -1,0 +1,13 @@
+// for background images
+@mixin bgImg($url, $repeat: no-repeat, $size:cover) {
+    background-image: url($url);
+    background-repeat: $repeat;
+    background-size: $size;
+}
+// for display flex
+@mixin displayFlex($displayType: flex, $flexWrap:wrap, $justifyContent:space-between, $alignItems: center){
+    display: $displayType;
+    flex-wrap: $flexWrap;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}

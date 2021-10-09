@@ -1,0 +1,120 @@
+// feature cards
+%featuresCard {
+    box-shadow: $box-shadow;
+    width: 23.5%;
+    padding: 4rem 2.5rem;
+
+    i {
+        margin: $mb-1rem;
+    }
+
+    h4 {
+        font-size: $s-1-5rem;
+        color: $black;
+        margin: $mtb-1rem;
+    }
+
+    p {
+        color: $gray;
+        font-size: $s-1-1rem;
+        line-height: $lh-1-6;
+    }
+}
+
+// architecture
+%interior {
+    figure {
+        width: $w-47pc;
+        img{
+            width: 100%;
+        }
+    }
+
+    div {
+        width: $w-40pc;
+
+        h4 {
+            font-size: $s-3rem;
+            color: $black;
+            margin: $mtb-1rem;
+            font-weight: 400;
+        }
+
+        P {
+            color: $gray;
+            font-size: $s-1-1rem;
+            line-height: $lh-1-6;
+        }
+
+        button {
+            background-image: $gradient;
+            padding: $py1px2rem;
+            color: $white;
+            margin: $mt-2rem;
+            border: none;
+            font-weight: bold;
+            letter-spacing: 0.1rem;
+            border-radius: $s-03rem;
+        }
+    }
+}
+
+// pricing card
+%pricingCard {
+    width:95%;
+    margin:0 auto;
+    background-color: $white;
+    padding-bottom: $s-1-5rem;
+    >p {
+        text-align: center;
+    }
+
+    button {
+        margin: $s-1-5rem auto 0;
+        display: block;
+        border: $lightGray solid 1.5px;
+    }
+
+    .d-flex {
+        padding: $p-1rem;
+        border-bottom: $lightGray solid 1.5px;
+    }
+
+    h5,
+    h6 {
+        font-weight: 400;
+    }
+
+    h5 {
+        font-size: $s-1-5rem;
+    }
+    h6 {
+        font-size: $s-2-5rem;
+        text-align: end;
+    }
+}
+// news card
+%newsCard{
+    margin: $s-3rem auto 0;
+    padding: 3rem 1.5rem;
+    width: 95%;
+    background-color: $bgGray;
+    border-radius: $s-03rem ;
+    >a{
+        border: $lightGray 1.5px solid;
+        background-color: $white;
+        border-radius: $s-03rem;
+        padding: $s-03rem $s-03rem;
+    }
+    h5{
+        text-transform: uppercase;
+        margin: 1rem 0;
+    }
+    a, i, span{
+        text-decoration: none;
+        color: $gray;
+    }
+    span{
+        padding-left: $s-03rem;
+    }
+}
